@@ -1,0 +1,24 @@
+{
+  "_note": "Alternate theme preset. To use it, copy the \"theme\" and \"decorations\" blocks below into data/invite.json (or rename this file to invite.json and fill in your own content).",
+
+  "theme": {
+    "primary": "#ff2e93",
+    "secondary": "#00e5ff",
+    "accent": "#f9ff3c",
+    "background": "#0d0618",
+    "surface": "#1b0f2b",
+    "text": "#f6f0ff",
+    "fonts": {
+      "heading": "'Bebas Neue', Impact, sans-serif",
+      "body": "'Space Grotesk', system-ui, sans-serif"
+    },
+    "googleFonts": ["Bebas Neue", "Space Grotesk:wght@300;400;600"]
+  },
+
+  "decorations": {
+    "enabled": true,
+    "style": "confetti",
+    "count": 30,
+    "colors": ["#ff2e93", "#00e5ff", "#f9ff3c"]
+  }
+}

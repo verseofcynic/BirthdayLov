@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "title": "Maya turns 30 — You're invited!",
+    "description": "Join us for Maya's 30th birthday celebration on 14 November 2026.",
+    "eventType": "birthday",
+    "favicon": "assets/images/favicon.svg"
+  },
+
+  "celebrant": {
+    "name": "Maya",
+    "age": 30,
+    "photo": "assets/images/celebrant.jpg",
+    "tagline": "Thirty, flirty and ready to dance"
+  },
+
+  "nav": {
+    "brand": "Maya @ 30"
+  },
+
+  "hero": {
+    "backgroundImage": "assets/images/hero.jpg",
+    "eyebrow": "You are invited",
+    "title": "{{name}} turns {{age}}",
+    "ageLabel": "A night of cake, confetti and questionable dance moves",
+    "subtitle": "Saturday, 14 November 2026 · 7:00 PM · The Garden House",
+    "button": {
+      "label": "Count me in",
+      "href": "#rsvp"
+    }
+  },
+
+  "invitation": {
+    "title": "A little note",
+    "message": "Thirty trips around the sun deserve a proper party.\n\nCome eat too much cake, tell embarrassing stories and stay far too late. Bring nothing but yourself and comfortable shoes — the playlist is already dangerous.",
+    "signature": "With love, the Sharma family"
+  },
+
+  "profile": {
+    "title": "A bit about {{name}}",
+    "tagline": "Baker of questionable sourdough, collector of houseplants.",
+    "facts": [
+      "Has visited 21 countries and lost a passport in three of them",
+      "Can name every song from the 90s within two seconds",
+      "Makes the best chai in the postcode (her words)",
+      "Will absolutely start the conga line"
+    ]
+  },
+
+  "countdown": {
+    "target": "2026-11-14T19:00:00",
+    "title": "The party starts in",
+    "labels": {
+      "days": "Days",
+      "hours": "Hours",
+      "minutes": "Minutes",
+      "seconds": "Seconds"
+    },
+    "messages": {
+      "counting": "Save the date — we can't wait to see you!",
+      "finished": "It's party time! See you on the dance floor."
+    }
+  },
+
+  "event": {
+    "title": "Party details",
+    "date": "2026-11-14T19:00:00",
+    "time": "7:00 PM until late",
+    "dressCode": "Smart, sparkly, comfortable shoes",
+    "venue": {
+      "name": "The Garden House",
+      "address": "42 Maple Lane",
+      "city": "Bengaluru"
+    }
+  },
+
+  "memories": {
+    "title": "Thirty years in pictures",
+    "items": [
+      {
+        "title": "The very first cake",
+        "date": "1996",
+        "text": "One candle, more frosting on the face than on the plate.",
+        "image": "assets/images/gallery-1.jpg"
+      },
+      {
+        "title": "Sweet sixteen",
+        "date": "2012",
+        "text": "Fairy lights in the backyard and a playlist we still argue about.",
+        "image": "assets/images/gallery-3.jpg"
+      },
+      {
+        "title": "The big trip",
+        "date": "2021",
+        "text": "Three friends, one tiny car and far too many roadside snacks.",
+        "image": "assets/images/gallery-2.jpg"
+      }
+    ]
+  },
+
+  "gallery": {
+    "title": "Photo gallery",
+    "images": [
+      {
+        "src": "assets/images/gallery-1.jpg",
+        "alt": "Birthday cake with lit candles",
+        "caption": "Cake first, always"
+      },
+      {
+        "src": "assets/images/gallery-2.jpg",
+        "alt": "Friends laughing under string lights",
+        "caption": "The usual suspects"
+      },
+      {
+        "src": "assets/images/gallery-3.jpg",
+        "alt": "Party hats and gift boxes on a pink background",
+        "caption": "Gifts optional, hugs required"
+      },
+      {
+        "src": "assets/images/hero.jpg",
+        "alt": "Pastel balloons and confetti",
+        "caption": "Balloons on balloons"
+      }
+    ]
+  },
+
+  "rsvp": {
+    "title": "Will you join us?",
+    "note": "Let us know by 1 November so we can count the cake slices.",
+    "deadline": "Please RSVP before 1 November 2026.",
+    "message": "Hi! I'd love to come to {{name}}'s {{age}}th birthday party on {{date}}.",
+    "whatsapp": {
+      "enabled": true,
+      "number": "+911234567890",
+      "label": "RSVP on WhatsApp"
+    },
+    "phone": {
+      "enabled": true,
+      "number": "+911234567890",
+      "label": "Call us"
+    },
+    "email": {
+      "enabled": true,
+      "address": "rsvp@example.com",
+      "subject": "RSVP — {{name}}'s birthday",
+      "label": "RSVP by email"
+    },
+    "googleForm": {
+      "enabled": false,
+      "url": "https://forms.gle/your-form-id",
+      "label": "Fill the RSVP form"
+    }
+  },
+
+  "candles": {
+    "enabled": true,
+    "title": "Make a wish",
+    "hint": "Tap the cake to blow out the candles"
+  },
+
+  "theme": {
+    "primary": "#ff5c8a",
+    "secondary": "#7b5cff",
+    "accent": "#ffb03a",
+    "background": "#fff7fb",
+    "surface": "#ffffff",
+    "text": "#2a1b33",
+    "fonts": {
+      "heading": "'Fraunces', Georgia, serif",
+      "body": "'Outfit', system-ui, sans-serif"
+    },
+    "googleFonts": ["Fraunces:wght@600;700", "Outfit:wght@300;400;600"]
+  },
+
+  "decorations": {
+    "enabled": true,
+    "style": "balloons",
+    "count": 14
+  },
+
+  "music": {
+    "enabled": true,
+    "source": "assets/music/background.mp3",
+    "autoplay": false,
+    "loop": true,
+    "volume": 0.35
+  },
+
+  "footer": {
+    "message": "Can't wait to celebrate with you.",
+    "hashtag": "#Maya30"
+  },
+
+  "social": {
+    "enabled": true,
+    "links": [
+      { "label": "Instagram", "url": "https://instagram.com/" },
+      { "label": "Share the invite", "url": "https://example.com/" }
+    ]
+  }
+}
